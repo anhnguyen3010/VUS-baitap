@@ -8,6 +8,7 @@
 }
 body{
     background-color: #fff;
+    height: 1920px;
 }
 /* CONTAINER */
 .container {
@@ -40,19 +41,20 @@ body{
     padding: 20px;
     border-top: 1px solid #eaeaea;
     border-bottom: 1px solid #eaeaea;
-    overflow: hidden;
+    width:100%;
 }
-.navbar a {
+.navbar a, .navbar a:visited {
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
     /* background-color: dimgray; */
     margin-left: 20px;
     overflow: hidden;
+    color: #636363;
 }
 .navbar a:hover {
-    text-decoration: underline;
-    text-decoration-color: #b31c25;
+   
+    border-bottom: 3px solid #fc0515;
 }
 
 /* CAROUSEL */
