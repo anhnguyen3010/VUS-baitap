@@ -1,33 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .clearfix {
     clear: both;
 }
-body{
+
+body {
     background-color: #fff;
     height: 1920px;
 }
+
+
 /* CONTAINER */
+
 .container {
     background-color: #fff;
     max-width: 1900px;
     margin: 0 auto;
 }
+
+
 /* HEADER */
+
 .header {
     height: 140px;
     /* background-color: rgb(56, 54, 54); */
     position: relative;
 }
+
 .header .image {
     float: left;
     width: 50%;
     padding-top: 20px;
-    padding-left: 20px;;
+    padding-left: 20px;
+    ;
 }
+
 .header .slogan {
     text-align: right;
     padding-right: 160px;
@@ -35,29 +46,33 @@ body{
     left: 950px;
 }
 
+
 /* NAVBar */
+
 .navbar {
     /* background-color: rgb(219, 116, 116); */
     padding: 20px;
     border-top: 1px solid #eaeaea;
     border-bottom: 1px solid #eaeaea;
-    width:100%;
 }
-.navbar a, .navbar a:visited {
+
+.navbar a,
+.navbar a:visited {
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
     /* background-color: dimgray; */
     margin-left: 20px;
-    overflow: hidden;
     color: #636363;
 }
+
 .navbar a:hover {
-   
     border-bottom: 3px solid #fc0515;
 }
 
+
 /* CAROUSEL */
+
 .carousel {
     height: 625px;
     background-image: url(./images/slider_1.png);
@@ -66,146 +81,158 @@ body{
     margin-top: 20px;
 }
 
+
 /* INTRO */
+
 .intro {
     text-align: center;
     line-height: 1.5;
     margin: 100px 40px 0 40px;
 }
+
 .intro img {
     margin-top: 15px;
     margin-bottom: 25px;
 }
+
 .intro p {
     letter-spacing: 1px;
     word-spacing: 2px;
 }
 
+
 /* COURSE */
+
 .course {
     margin-top: 100px;
 }
-.course .course-header{
+
+.course .course-header {
     text-align: center;
 }
+
 .course .course-header img {
     margin-top: 15px;
     margin-bottom: 25px;
 }
+
 .course .list {
     margin: 0 -10px;
 }
+
 .course .list .item {
-    float:left;
+    float: left;
     width: 25%;
     padding: 10px;
 }
+
 .course .list .item img {
-    width:100%;
-}
-.course .list .item h1 {
-    font-size: 20px;
-    color:#b41c25;
-}
-.course .list .item a{
-    text-decoration: none;
-}
-.course .list .item a:visited {
-    color:#b41c25;
+    width: 100%;
 }
 
+.course .list .item h1 {
+    font-size: 20px;
+    color: #b41c25;
+}
+
+.course .list .item a {
+    text-decoration: none;
+}
+
+.course .list .item a:visited {
+    color: #b41c25;
+}
+
+
 /* NEWS & EVENT */
-.news-event{
+
+.news-event {
     margin-top: 100px;
 }
+
 .news-event .news-event-header {
     text-align: center;
 }
 
-.news-event .news-event-header img{
+.news-event .news-event-header img {
     margin-top: 15px;
     margin-bottom: 25px;
-
 }
+
 .news-event .news-event-list {
     margin: 0 -10px;
 }
+
 .news-event .news-event-list .list {
     width: 50%;
     height: 615px;
     float: left;
 }
+
 .news-event .news-event-list .list .item {
     float: left;
     padding: 10px 10px 0px 10px;
 }
-.news-event .news-event-list .list-left .item{
-    height:100%;
+
+.news-event .news-event-list .list-left .item {
+    height: 100%;
     width: 100%;
-    
 }
-.news-event .news-event-list .list .item .content{
-    height:100%;
+
+.news-event .news-event-list .list .item .content {
+    height: 100%;
     width: 100%;
     padding-bottom: 5px;
     border-bottom: red solid 5px;
-    position:relative;
+    position: relative;
 }
 
-
-.news-event .news-event-list .list .item img{
-    height:100%;
+.news-event .news-event-list .list .item img {
+    height: 100%;
     width: 100%;
     display: block;
-   
 }
 
-.news-event .news-event-list .list-right .item{
+.news-event .news-event-list .list-right .item {
     width: 50%;
     height: 50%;
 }
-/* .news-event .news-event-list .list-right .item .content{
-    width: 100%;
-    height: 100%;
-    padding-bottom: 5px;
-    border-bottom: red solid 5px;
-} */
-/* .news-event .news-event-list .list-right .item img{
-    width: 100%;
-    height: 100%;
-    display: block;
-   
-} */
-.news-event .news-event-list .list .item .content p{
+
+.news-event .news-event-list .list .item .content p {
     position: absolute;
     bottom: 5px;
-    left:0;
+    left: 0;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color:#fff;
+    color: #fff;
 }
+
+
 /* FOOTER */
-.footer{
+
+.footer {
     height: 200px;
     background-color: #b31c25;
     margin-top: 50px;
     margin-bottom: 10px;
     position: relative;
 }
+
 .footer img {
     position: absolute;
     top: 50px;
     left: 50px;
 }
+
 .footer p {
     position: absolute;
     right: 0;
     top: 50px;
     width: 50%;
-    color:#fff;
+    color: #fff;
     font-size: 20px;
     font-weight: 400;
 }
